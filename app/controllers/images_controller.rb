@@ -104,6 +104,10 @@ class ImagesController < ApplicationController
         format.html { redirect_to @warpable.map }
         format.json { render json: @warpable }
       end
+    elsif current_user.id = nil 
+    #move warpable to sidebar images
+    #delete warpable from map
+    
     else
       flash[:error] = 'You must be logged in to delete images.'
       redirect_to '/login'
