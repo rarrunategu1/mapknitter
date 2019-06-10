@@ -1,0 +1,25 @@
+[ N 2019-06-10 10:22:48.4183 222/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ W 2019-06-10 10:22:48.4523 222/T1 Ser/Server.h:798 ]: [WatchdogApiServer] Cannot disable Nagle's algorithm on a TCP socket: Invalid argument (errno=22)
+[ N 2019-06-10 10:22:48.5354 225/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-06-10 10:22:48.5375 225/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ W 2019-06-10 10:22:48.6294 225/T1 Ser/AcceptLoadBalancer.h:295 ]: Cannot disable Nagle's algorithm on a TCP socket: Invalid argument (errno=22)
+[ W 2019-06-10 10:22:48.6300 225/T1 Ser/Server.h:798 ]: [ApiServer] Cannot disable Nagle's algorithm on a TCP socket: Invalid argument (errno=22)
+[ N 2019-06-10 10:22:48.6346 225/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 225
+[ N 2019-06-10 10:22:51.7468 225/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+2019/06/10 10:22:51 [error] 247#0: *4 "/home/rarrunategui/mapknitter/config/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2019/06/10 10:23:26 [error] 247#0: *5 "/home/rarrunategui/mapknitter/config/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:3000"
+2019/06/10 10:23:27 [error] 247#0: *5 open() "/home/rarrunategui/mapknitter/config/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3000", referrer: "http://localhost:3000/"
+
+[ N 2019-06-10 10:23:45.0847 225/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-06-10 10:23:45.0857 225/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-06-10 10:23:45.0906 225/Tg Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-06-10 10:23:45.0897 225/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-06-10 10:23:45.0897 225/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2019-06-10 10:23:45.0898 225/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2019-06-10 10:23:45.0897 225/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2019-06-10 10:23:45.0908 225/Tg Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-06-10 10:23:45.0911 225/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2019-06-10 10:23:45.0910 225/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2019-06-10 10:23:45.0910 225/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2019-06-10 10:23:45.0909 225/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-06-10 10:23:45.8335 225/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
